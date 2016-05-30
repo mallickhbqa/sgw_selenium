@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="9" total="14" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="112667" started-at="2016-05-30T10:22:04Z" finished-at="2016-05-30T10:23:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="112667" started-at="2016-05-30T10:22:04Z" finished-at="2016-05-30T10:23:57Z">
+      <class name="SGW_NewPort.Version_1_0_pageOperation.PageTestOperation">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="beforeSuite" is-config="true" duration-ms="326" started-at="2016-05-30T15:52:04Z" finished-at="2016-05-30T15:52:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="openBrowser" is-config="true" duration-ms="18929" started-at="2016-05-30T15:52:04Z" finished-at="2016-05-30T15:52:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="LogOnValid()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="LogOnValid" duration-ms="9116" started-at="2016-05-30T15:52:23Z" finished-at="2016-05-30T15:52:32Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at SGW_NewPort.Version_1_0_pageOperation.PageTestOperation.LogOnValid(PageTestOperation.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOnValid -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="3041" started-at="2016-05-30T15:52:32Z" finished-at="2016-05-30T15:52:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogOnValid status=FAILURE method=PageTestOperation.LogOnValid()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="profileMouseHoverValid()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="profileMouseHoverValid" duration-ms="5588" started-at="2016-05-30T15:52:35Z" depends-on-methods="SGW_NewPort.Version_1_0_pageOperation.PageTestOperation.LogOnValid" finished-at="2016-05-30T15:52:41Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at SGW_NewPort.Version_1_0_pageOperation.PageTestOperation.profileMouseHoverValid(PageTestOperation.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profileMouseHoverValid -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="4448" started-at="2016-05-30T15:52:41Z" finished-at="2016-05-30T15:52:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=profileMouseHoverValid status=FAILURE method=PageTestOperation.profileMouseHoverValid()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="aboutUProfileMh()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="aboutUProfileMh" duration-ms="0" started-at="2016-05-30T15:52:45Z" depends-on-methods="SGW_NewPort.Version_1_0_pageOperation.PageTestOperation.profileMouseHoverValid" finished-at="2016-05-30T15:52:45Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PageTestOperation.aboutUProfileMh()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PageTestOperation.aboutUProfileMh()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1037)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutUProfileMh -->
+        <test-method status="FAIL" signature="aboutUChanePwdMh()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="aboutUChanePwdMh" duration-ms="5909" started-at="2016-05-30T15:52:45Z" depends-on-methods="SGW_NewPort.Version_1_0_pageOperation.PageTestOperation.aboutUProfileMh" finished-at="2016-05-30T15:52:51Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at SGW_NewPort.Version_1_0_pageOperation.PageTestOperation.aboutUChanePwdMh(PageTestOperation.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutUChanePwdMh -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="505" started-at="2016-05-30T15:52:51Z" finished-at="2016-05-30T15:52:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=aboutUChanePwdMh status=FAILURE method=PageTestOperation.aboutUChanePwdMh()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="aboutUemailh()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="aboutUemailh" duration-ms="5388" started-at="2016-05-30T15:52:52Z" depends-on-methods="SGW_NewPort.Version_1_0_pageOperation.PageTestOperation.aboutUChanePwdMh" finished-at="2016-05-30T15:52:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at SGW_NewPort.Version_1_0_pageOperation.PageTestOperation.aboutUemailh(PageTestOperation.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutUemailh -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="411" started-at="2016-05-30T15:52:57Z" finished-at="2016-05-30T15:52:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=aboutUemailh status=FAILURE method=PageTestOperation.aboutUemailh()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="ourPrdMnthlGold()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="ourPrdMnthlGold" duration-ms="4919" started-at="2016-05-30T15:52:57Z" depends-on-methods="SGW_NewPort.Version_1_0_pageOperation.PageTestOperation.aboutUemailh" finished-at="2016-05-30T15:53:02Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at SGW_NewPort.Version_1_0_pageOperation.PageTestOperation.ourPrdMnthlGold(PageTestOperation.java:107)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ourPrdMnthlGold -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="729" started-at="2016-05-30T15:53:02Z" finished-at="2016-05-30T15:53:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ourPrdMnthlGold status=FAILURE method=PageTestOperation.ourPrdMnthlGold()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="ourPrdMnthlRed()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="ourPrdMnthlRed" duration-ms="7172" started-at="2016-05-30T15:53:03Z" depends-on-methods="SGW_NewPort.Version_1_0_pageOperation.PageTestOperation.ourPrdMnthlGold" finished-at="2016-05-30T15:53:10Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at SGW_NewPort.Version_1_0_pageOperation.PageTestOperation.ourPrdMnthlRed(PageTestOperation.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ourPrdMnthlRed -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="2104" started-at="2016-05-30T15:53:10Z" finished-at="2016-05-30T15:53:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ourPrdMnthlRed status=FAILURE method=PageTestOperation.ourPrdMnthlRed()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="ourPrdSmthSlct()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="ourPrdSmthSlct" duration-ms="4055" started-at="2016-05-30T15:53:12Z" depends-on-methods="SGW_NewPort.Version_1_0_pageOperation.PageTestOperation.ourPrdMnthlRed" finished-at="2016-05-30T15:53:16Z">
+          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
+            <message>
+              <![CDATA[Offset within element cannot be scrolled into view: (70.5, 9.5): https://www.newport-pleasure.com/Product/SmoothSelect
+Command duration or timeout: 184 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'MALLICKH2', ip: '16.182.227.33', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 95feba18-2102-4e01-8862-a81b30b67d5d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Offset within element cannot be scrolled into view: (70.5, 9.5): https://www.newport-pleasure.com/Product/SmoothSelect
+Command duration or timeout: 184 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'MALLICKH2', ip: '16.182.227.33', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 95feba18-2102-4e01-8862-a81b30b67d5d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.remote.RemoteMouse.moveIfNeeded(RemoteMouse.java:52)
+	at org.openqa.selenium.remote.RemoteMouse.click(RemoteMouse.java:57)
+	at org.openqa.selenium.interactions.ClickAction.perform(ClickAction.java:37)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:50)
+	at SGW_NewPort.Version_1_0_pageUtility.MouseHover.mouseHover(MouseHover.java:14)
+	at SGW_NewPort.Version_1_0_pageObject.ourProduct.mHNonMntlsmoothselect(ourProduct.java:43)
+	at SGW_NewPort.Version_1_0_pageOperation.PageTestOperation.ourPrdSmthSlct(PageTestOperation.java:128)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+Caused by: org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Offset within element cannot be scrolled into view: (70.5, 9.5): https://www.newport-pleasure.com/Product/SmoothSelect
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'MALLICKH2', ip: '16.182.227.33', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.mouseMoveTo(file:///C:/Users/mallickh/AppData/Local/Temp/anonymous8348473584627508139webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11072)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/mallickh/AppData/Local/Temp/anonymous8348473584627508139webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/mallickh/AppData/Local/Temp/anonymous8348473584627508139webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/mallickh/AppData/Local/Temp/anonymous8348473584627508139webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ourPrdSmthSlct -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="1337" started-at="2016-05-30T15:53:16Z" finished-at="2016-05-30T15:53:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ourPrdSmthSlct status=FAILURE method=PageTestOperation.ourPrdSmthSlct()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="NewpleasureLnk()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="NewpleasureLnk" duration-ms="9225" started-at="2016-05-30T15:53:18Z" depends-on-methods="SGW_NewPort.Version_1_0_pageOperation.PageTestOperation.ourPrdSmthSlct" finished-at="2016-05-30T15:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewpleasureLnk -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="76" started-at="2016-05-30T15:53:27Z" finished-at="2016-05-30T15:53:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NewpleasureLnk status=SUCCESS method=PageTestOperation.NewpleasureLnk()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="SweepsMouseHover()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="SweepsMouseHover" duration-ms="7134" started-at="2016-05-30T15:53:27Z" depends-on-methods="SGW_NewPort.Version_1_0_pageOperation.PageTestOperation.NewpleasureLnk" finished-at="2016-05-30T15:53:34Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//div[@id='header']/div[@class='header-sgw quarter2']"}
+Command duration or timeout: 5.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'MALLICKH2', ip: '16.182.227.33', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 95feba18-2102-4e01-8862-a81b30b67d5d
+*** Element info: {Using=xpath, value=//div[@id='header']/div[@class='header-sgw quarter2']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@id='header']/div[@class='header-sgw quarter2']"}
+Command duration or timeout: 5.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'MALLICKH2', ip: '16.182.227.33', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 95feba18-2102-4e01-8862-a81b30b67d5d
+*** Element info: {Using=xpath, value=//div[@id='header']/div[@class='header-sgw quarter2']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.getLocation(Unknown Source)
+	at SGW_NewPort.Version_1_0_pageUtility.SGW_TakeScreenShot.screenShotSGW(SGW_TakeScreenShot.java:27)
+	at SGW_NewPort.Version_1_0_pageObject.Sweeps.mouseHoverPayday(Sweeps.java:31)
+	at SGW_NewPort.Version_1_0_pageOperation.PageTestOperation.SweepsMouseHover(PageTestOperation.java:152)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@id='header']/div[@class='header-sgw quarter2']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'MALLICKH2', ip: '16.182.227.33', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/mallickh/AppData/Local/Temp/anonymous8348473584627508139webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/mallickh/AppData/Local/Temp/anonymous8348473584627508139webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SweepsMouseHover -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="962" started-at="2016-05-30T15:53:34Z" finished-at="2016-05-30T15:53:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SweepsMouseHover status=FAILURE method=PageTestOperation.SweepsMouseHover()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="faq()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="faq" duration-ms="7303" started-at="2016-05-30T15:53:35Z" depends-on-methods="SGW_NewPort.Version_1_0_pageOperation.PageTestOperation.SweepsMouseHover" finished-at="2016-05-30T15:53:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faq -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="79" started-at="2016-05-30T15:53:43Z" finished-at="2016-05-30T15:53:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=faq status=SUCCESS method=PageTestOperation.faq()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="privacypolicy()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="privacypolicy" duration-ms="3929" started-at="2016-05-30T15:53:43Z" depends-on-methods="SGW_NewPort.Version_1_0_pageOperation.PageTestOperation.faq" finished-at="2016-05-30T15:53:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at SGW_NewPort.Version_1_0_pageOperation.PageTestOperation.privacypolicy(PageTestOperation.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- privacypolicy -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="418" started-at="2016-05-30T15:53:47Z" finished-at="2016-05-30T15:53:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=privacypolicy status=FAILURE method=PageTestOperation.privacypolicy()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="help()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="help" duration-ms="6886" started-at="2016-05-30T15:53:47Z" depends-on-methods="SGW_NewPort.Version_1_0_pageOperation.PageTestOperation.privacypolicy" finished-at="2016-05-30T15:53:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- help -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="70" started-at="2016-05-30T15:53:54Z" finished-at="2016-05-30T15:53:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=help status=SUCCESS method=PageTestOperation.help()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="logout" duration-ms="285" started-at="2016-05-30T15:53:54Z" depends-on-methods="SGW_NewPort.Version_1_0_pageOperation.PageTestOperation.help" finished-at="2016-05-30T15:53:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="50" started-at="2016-05-30T15:53:54Z" finished-at="2016-05-30T15:53:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logout status=SUCCESS method=PageTestOperation.logout()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="truncate()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="truncate" is-config="true" duration-ms="2433" started-at="2016-05-30T15:53:54Z" finished-at="2016-05-30T15:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- truncate -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:SGW_NewPort.Version_1_0_pageOperation.PageTestOperation@59fa1d9b]" name="afterSuite" is-config="true" duration-ms="1196" started-at="2016-05-30T15:53:57Z" finished-at="2016-05-30T15:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- SGW_NewPort.Version_1_0_pageOperation.PageTestOperation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
